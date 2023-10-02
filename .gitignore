@@ -22,3 +22,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Apuntes personales
+consignas_entregas.txt
+proyecto_libros_usados.txt
