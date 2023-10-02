@@ -6,13 +6,14 @@ import ItemListContainer from "./components/pages/itemListContainer/ItemListCont
 
 function App() {
   const [count, setCount] = useState(0);
+  let nombre = "amigo/a";
 
   return (
     <>
       <NavBar />
 
-      <h1>Hola!</h1>
-      <ItemListContainer />
+      <h1></h1>
+      <ItemListContainer visitante={nombre} />
       <Footer />
     </>
   );
