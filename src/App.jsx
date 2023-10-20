@@ -2,7 +2,8 @@ import { useState } from "react";
 
 import { NavBar } from "./components/layout/navbar/NavBar";
 import Footer from "./components/layout/footer/Footer";
-import ItemListContainer from "./components/pages/itemListContainer/ItemListContainer";
+import ItemListContainer from "./components/pages/itemList/ItemListContainer";
+import CounterContainer from "./components/common/counter/CounterContainer";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -11,9 +12,8 @@ function App() {
   return (
     <>
       <NavBar />
-
-      <h1></h1>
       <ItemListContainer visitante={nombre} />
+      <CounterContainer stock={10} />
       <Footer />
     </>
   );
