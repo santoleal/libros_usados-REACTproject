@@ -5,3 +5,8 @@
   flex-direction: row;
   align-items: flex-start;
 }
+
+.recuadro {
+  margin-top: 10px;
+  padding-top: 10px;
+}
