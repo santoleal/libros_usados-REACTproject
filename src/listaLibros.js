@@ -1,14 +1,16 @@
-export let productos = [
+export let libros = [
   {
     id: 1,
     title: "PHP. Creación de páginas web dinámicas",
     author: "Hernán Beati",
     description: "Cubre las versiones 4, 5 y 6.",
     publisher: "Alfaomega",
+    categoryName: "programacion",
     category: "Programación",
     price: 5000,
     stock: 2,
-    image: "./src/assets/img/libro_id_1.jpg",
+    image:
+      "https://raw.githubusercontent.com/santoleal/libros_usados-REACTproject/main/src/assets/img/libro_id_1.jpg",
   },
 
   {
@@ -17,10 +19,12 @@ export let productos = [
     author: "Michael Swan",
     description: "Easier, faster reference.",
     publisher: "OXFORD",
+    categoryName: "idiomas",
     category: "Idiomas",
     price: 10000,
-    stock: 1,
-    image: "./src/assets/img/libro_id_2.jpg",
+    stock: 3,
+    image:
+      "https://raw.githubusercontent.com/santoleal/libros_usados-REACTproject/main/src/assets/img/libro_id_2.jpg",
   },
 
   {
@@ -30,10 +34,12 @@ export let productos = [
     description:
       "Una interesante trama de misterios dentro de una mansión de un multimillonario.",
     publisher: "Santillana",
+    categoryName: "infantil",
     category: "Literatura Infantil",
     price: 5000,
     stock: 2,
-    image: "./src/assets/img/libro_id_3.jpg",
+    image:
+      "https://raw.githubusercontent.com/santoleal/libros_usados-REACTproject/main/src/assets/img/libro_id_3.jpg",
   },
 
   {
@@ -43,10 +49,13 @@ export let productos = [
     description:
       "Fallaci reaparece tras años de silencio, para condenar los ataques a las torres de Nueva York del 11 de seprtiembre del 2001",
     publisher: "Editorial El Ateneo",
+    categoryName: "literatura",
+
     category: "Literatura",
     price: 6000,
     stock: 1,
-    image: "./src/assets/img/libro_id_4.jpg",
+    image:
+      "https://raw.githubusercontent.com/santoleal/libros_usados-REACTproject/main/src/assets/img/libro_id_4.jpg",
   },
 
   {
@@ -55,10 +64,12 @@ export let productos = [
     author: "Big Ben",
     description: "Con complementos de gramática inglesa y española",
     publisher: "Ediciones Occidente S.A.",
+    categoryName: "idiomas",
     category: "Idiomas",
     price: 10000,
     stock: 1,
-    image: "./src/assets/img/libro_id_5.jpg",
+    image:
+      "https://raw.githubusercontent.com/santoleal/libros_usados-REACTproject/main/src/assets/img/libro_id_5.jpg",
   },
 
   {
@@ -67,10 +78,12 @@ export let productos = [
     author: "Henry Legere",
     description: "",
     publisher: "Verticales de Bolsillo",
+    categoryName: "autoayuda",
     category: "Autoayuda",
     price: 3000,
     stock: 1,
-    image: "./src/assets/img/libro_id_6.jpg",
+    image:
+      "https://raw.githubusercontent.com/santoleal/libros_usados-REACTproject/main/src/assets/img/libro_id_6.jpg",
   },
 
   {
@@ -80,10 +93,13 @@ export let productos = [
     description:
       "Osho responde a las preguntas que se le plantean sobre el tema de la mujer desde el punto de vista de la conciencia.",
     publisher: "Biblioteca del Bienestar Emocional",
+    categoryName: "autoayuda",
+
     category: "Autoayuda",
     price: 3000,
     stock: 1,
-    image: "./src/assets/img/libro_id_7.jpg",
+    image:
+      "https://raw.githubusercontent.com/santoleal/libros_usados-REACTproject/main/src/assets/img/libro_id_7.jpg",
   },
 
   {
@@ -92,10 +108,13 @@ export let productos = [
     author: "Patrick Süskind",
     description: "Historia de un asesinato en Francia del siglo XVIII.",
     publisher: "Booket",
+    categoryName: "literatura",
+
     category: "Literatura",
     price: 5000,
     stock: 1,
-    image: "./src/assets/img/libro_id_8.jpg",
+    image:
+      "https://raw.githubusercontent.com/santoleal/libros_usados-REACTproject/main/src/assets/img/libro_id_8.jpg",
   },
 
   {
@@ -105,10 +124,13 @@ export let productos = [
     description:
       "Verás cómo la amistad es una de las cosas más poderosas del mundo.",
     publisher: "Editorial Universitaria",
+    categoryName: "infantil",
+
     category: "Literatura Infantil",
     price: 3000,
     stock: 1,
-    image: "./src/assets/img/libro_id_9.jpg",
+    image:
+      "https://raw.githubusercontent.com/santoleal/libros_usados-REACTproject/main/src/assets/img/libro_id_9.jpg",
   },
 
   {
@@ -117,9 +139,12 @@ export let productos = [
     author: "Nelson Demille",
     description: "Una mujer soldado, un asesinato sexual...",
     publisher: "Editorial Grijalbo",
+    categoryName: "literatura",
+
     category: "Literatura",
     price: 5000,
     stock: 1,
-    image: "./src/assets/img/libro_id_10.jpg",
+    image:
+      "https://raw.githubusercontent.com/santoleal/libros_usados-REACTproject/main/src/assets/img/libro_id_10.jpg",
   },
 ];

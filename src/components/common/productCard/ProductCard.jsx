@@ -9,6 +9,7 @@ import {
   Typography,
 } from "@mui/material";
 import { customThemeXCards } from "../../../themeConfig";
+import { Link } from "react-router-dom";
 
 const ProductCard = ({ item }) => {
   return (
@@ -50,9 +51,11 @@ const ProductCard = ({ item }) => {
             </Typography>
           </CardContent>
           <CardActions>
-            <Button size="small" variant="outlined">
-              Detalles
-            </Button>
+            <Link to={`/detalles/${item.id}`} style={{ marginRight: "10px" }}>
+              <Button size="small" variant="outlined">
+                Detalles
+              </Button>
+            </Link>
             <Button size="small" variant="contained">
               Agregar al carrito
             </Button>
