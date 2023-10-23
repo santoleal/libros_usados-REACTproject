@@ -1,5 +1,5 @@
 const Cart = () => {
-  return <div>Cart Presensacional</div>;
+  return <div>Estoy en el carrito</div>;
 };
 
 export default Cart;

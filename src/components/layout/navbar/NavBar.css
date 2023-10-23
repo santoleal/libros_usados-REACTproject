@@ -30,3 +30,15 @@
   justify-content: center;
   border-radius: 10px;
 }
+
+.link {
+  color: white;
+  text-decoration: none;
+}
+.link:hover {
+  text-decoration: underline;
+}
+
+.icono {
+  color: white;
+}
