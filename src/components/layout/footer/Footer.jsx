@@ -1,9 +1,8 @@
-import { Outlet } from "react-router-dom";
 
 const Footer = () => {
   return (
     <>
-      <Outlet />
+
       <footer>
         <h3
           style={{
